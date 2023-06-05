@@ -1,0 +1,15 @@
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\bin\Debug\net6.0\Infrastrucre.deps.json
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\bin\Debug\net6.0\Infrastrucre.dll
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\bin\Debug\net6.0\Infrastrucre.pdb
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\bin\Debug\net6.0\Core.dll
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\bin\Debug\net6.0\Core.pdb
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\Infrastrucre.csproj.AssemblyReference.cache
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\Infrastrucre.GeneratedMSBuildEditorConfig.editorconfig
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\Infrastrucre.AssemblyInfoInputs.cache
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\Infrastrucre.AssemblyInfo.cs
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\Infrastrucre.csproj.CoreCompileInputs.cache
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\Infrastrucre.csproj.CopyComplete
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\Infrastrucre.dll
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\refint\Infrastrucre.dll
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\Infrastrucre.pdb
+D:\croudFundingby dotnet\CroudFundingApi\Infrastrucre\obj\Debug\net6.0\ref\Infrastrucre.dll
