@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,6 @@ namespace Core.Interfaces
     {
         Task<T> CreateAsync(T entity);
         Task<T> GetByIdAsync(int id);
-        Task<RegisterEntity?> ActiveUserAsync(string email);
+        //Task<AppUser?> ActiveUserAsync(string email);
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using Core.Identity;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,8 @@ namespace Core.Entities
         public bool IsFeatured { get; set; }
         public CategoryEntity Category { get; set; }
         public int CategoryId { get; set; }
-        public RegisterEntity User { get; set; }
-        public int UserId { get; set; }
+        public AppUser User { get; set; }
+        public Guid UserId { get; set; }
         public ICollection<TagEntity> Tags { get; set; }
         public DateTime CreatedAt { get; set; }
 

@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Identity;
 using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -23,7 +24,7 @@ namespace Infrastructure.Data
             return entity;
         }
 
-        public async Task<RegisterEntity?> ActiveUserAsync(string email)
+        /*public async Task<RegisterEntity?> ActiveUserAsync(string email)
         {
            var register= await  _storeContext.Registers.FirstOrDefaultAsync(u => u.Email == email);
             if (register != null)
@@ -36,11 +37,13 @@ namespace Infrastructure.Data
             {
                 return null;
             }
-        }
+        }*/
 
         public Task<T> GetByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
+
+        
     }
 }

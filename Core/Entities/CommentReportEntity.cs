@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using Core.Identity;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace Core.Entities
         public string Report { get; set; }
         public CommentEntity Comment { get; set; }
         public int CommentId { get; set; }
-        public RegisterEntity User { get; set; }
-        public int UserId { get; set; }
+        public AppUser User { get; set; }
+        public Guid UserId { get; set; }
     }
 }

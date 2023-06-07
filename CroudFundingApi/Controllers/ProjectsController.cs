@@ -12,21 +12,21 @@ namespace CroudFundingApi.Controllers
     public class ProjectsController : BaseController
     {
         private readonly IGenericRepository<ProjectEntity> _genericRepositoryProject;
-        private readonly IGenericRepository<RegisterEntity> _genericRepositoryRegister;
+       // private readonly IGenericRepository<RegisterEntity> _genericRepositoryRegister;
        private readonly IServices _iservices;
-        public ProjectsController(IGenericRepository<ProjectEntity> genericRepositoryProject,IGenericRepository<RegisterEntity> genericRepositoryRegister, IServices iservices)
+        public ProjectsController(IGenericRepository<ProjectEntity> genericRepositoryProject, IServices iservices)
         {
             _genericRepositoryProject = genericRepositoryProject;
-           _genericRepositoryRegister = genericRepositoryRegister;
+           //_genericRepositoryRegister = genericRepositoryRegister;
             _iservices = iservices;
         }
-        [HttpPost]
-        public async Task<ActionResult<ProjectEntity>> CreateProjectAsync([FromQuery]ProjectEntity project)
-        {
-            return Ok(await _genericRepositoryProject.CreateAsync(project));
-        }
+        //[HttpPost]
+        //public async Task<ActionResult<ProjectEntity>> CreateProjectAsync([FromQuery]ProjectEntity project)
+        //{
+        //    return Ok(await _genericRepositoryProject.CreateAsync(project));
+        //}
 
-        [HttpPost("register")]
+       /* [HttpPost("register")]
         public async Task<ActionResult<RegisterEntity>> CreateRegisterAsync([FromQuery] RegisterEntity register)
         {
 
@@ -36,8 +36,9 @@ namespace CroudFundingApi.Controllers
             return Ok(new_register);   
 
         }
+       */
 
-        [HttpPost("activate")]
+      /*  [HttpPost("activate")]
         public async Task<IActionResult> ActivateRegisterAsync(string token)
         {
             string email;
@@ -66,6 +67,7 @@ namespace CroudFundingApi.Controllers
                 return BadRequest("token expire");
             }
         }
+      */
        
     }
 }

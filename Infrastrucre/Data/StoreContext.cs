@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Core.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Win32;
 using System;
@@ -15,7 +16,7 @@ namespace Infrastructure.Data
     public class StoreContext : DbContext
     {
 
-        public StoreContext(DbContextOptions options):base(options)
+        public StoreContext(DbContextOptions<StoreContext> options):base(options)
         {
             
         }
@@ -24,7 +25,7 @@ namespace Infrastructure.Data
         public DbSet<ProjectEntity> Projects { get; set; }
         public DbSet<ImagesEntity> Images { get; set; }
         public DbSet<CommentEntity> Comments { get; set; }
-        public DbSet<RegisterEntity> Registers { get; set; }
+        public DbSet<AppUser> Registers { get; set; }
         public DbSet<DonationEntity> Donations { get; set; }
         public DbSet<ProjectReportEntity> ProjectReports { get; set; }
         public DbSet<CommentReportEntity> CommentReports { get; set; }
